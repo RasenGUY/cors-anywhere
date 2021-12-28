@@ -46,6 +46,6 @@ const app = cors_proxy.createServer({
     xfwd: false,
   },
 })
-app.listen(port, host, function() {
-  console.log('Running CORS Anywhere on ' + host + ':' + port);
+app.listen(port, function() {
+  console.log('Running CORS Anywhere on Port:' + port);
 });
